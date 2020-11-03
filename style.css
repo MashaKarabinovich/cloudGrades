@@ -1,0 +1,129 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    font-family: "Roboto", sans-serif; 
+
+}
+
+header{
+    position: fixed; 
+    background: #22242A; 
+    padding: 20px; 
+    width: 100%; 
+    height: 30px; 
+
+}
+
+
+
+.left_area h3{
+color: #fff;
+margin: 0; 
+text-transform: uppercase; 
+font-size: 22px; 
+font-weight: 900; 
+
+}
+
+.left_area span{
+    color: #1DC4E7;
+}
+
+.logoutButton {
+    padding: 5px; 
+    background: #4D7EA8; 
+    text-decoration: none; 
+    float: right; 
+    margin-top: -30px; 
+    margin-right: 40px; 
+    border-radius: 2px; 
+    font-size: 15px; 
+    font-weight: 600; 
+    color: #fff;
+    transition: 0.5s; 
+    transition-property: background; 
+}
+.logoutButton:hover{
+    background: #0D9DBB; 
+
+}
+
+.sidebar{
+    background: #4d7ea8;
+    margin-top: 70px; 
+    padding-top: 30px; 
+    position: fixed; 
+    left: 0; 
+    width: 250px; 
+    height: 100%; 
+    transition: 0.5; 
+    transition-property: left;
+}
+
+.sidebar .profileImage{
+    width: 100px;
+    height: 100px; 
+    border-radius: 100px; 
+    margin-bottom: 10px; 
+
+}
+
+.sidebar h4{
+    color: #ccc; 
+    margin-top: 0; 
+    margin-bottom: 20px; 
+
+}
+
+.sidebar a{
+    color: #fff;
+    display: block; 
+    width: 100%; 
+    line-height: 60px; 
+    line-height: 60px; 
+    text-decoration: none; 
+    padding-left: 40px; 
+    box-sizing: border-box; 
+    transition: 0.5s; 
+    transition-property: background; 
+}
+
+.sidebar a:hover{
+    background: #19B3D3;
+
+}
+
+.sidebar i{
+    padding-right: 10px; 
+}
+
+label #sidebarButton{
+    z-index: 1; 
+    color: #fff;
+    position: fixed;
+    cursor: pointer; 
+    left: 500px; 
+    font-size: 20px; 
+    margin: 5px 0; 
+    transition-property: color; 
+}
+
+label #sidebarButton:hover{
+    color: #19b3d3; 
+
+}
+
+#check:checked ~.sidebar{
+    left: -190px; 
+}
+
+#check:checked ~.sidebar a span{
+    display: none; 
+
+}
+
+#check:checked ~.sidebar a{
+    font-size: 20px; 
+    margin-left: 170px;
+    width: 80px; 
+}

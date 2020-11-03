@@ -1,0 +1,3 @@
+connection string:
+
+Server=tcp:webmasha1.database.windows.net,1433;Initial Catalog=webmasha;Persist Security Info=False;User ID=Masha123;Password=Hidden23;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
